@@ -1,0 +1,17 @@
+5- Qual a diferença entre sobreposição e sobrecarga de métodos em Java?
+
+R: Sobreposição: Reescreve um método da classe pai, com o mesmo nome, quantidade de parâmetros e tipo de retorno.
+
+Sobrecarga: Permite criar um ou mais métodos com o mesmo nome, contanto que suas listas de argumentos sejam diferentes para que seja feita uma separação.
+
+6- O que são classes abstratas e interface em Java. Quando devemos usar uma classe
+abstrata ou interface em Java?
+
+R:Classes abstratas: Já tem métodos abstratos e já implementados, é usada apenas para ser herdada sendo considerada uma super classe, quem herda da classe abstrata deve herdar os métodos abstratos e consequentemente a implementação dos mesmos, assim como a interface também não pode ser instanciada. É útil quando você precisa definir o corpo dos métodos e para a criação de métodos abstratos que serão implementados pela classe que herda ela.
+
+Interface: É considerado como uma entidade, não possui implementação, apenas os métodos sem os seus corpos. Uma interface não pode ser instanciada e uma classe pode implementar várias interfaces. É bastante útil quando você quer que as classes tenham o mesmo método com comportamentos diferentes.
+
+7- Qual a diferença entre herança e composição em Java?
+
+R: Herança: Quando uma classe herda a outra, ficando muito ligada a outra e causando grande dependência.
+Composição: Estende uma classe através da delegação de trabalho para outro objeto.
